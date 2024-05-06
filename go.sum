@@ -1,0 +1,6 @@
+github.com/caarlos0/env v3.5.0+incompatible h1:Yy0UN8o9Wtr/jGHZDpCBLpNrzcFLLM2yixi/rBrKyJs=
+github.com/caarlos0/env v3.5.0+incompatible/go.mod h1:tdCsowwCzMLdkqRYDlHpZCp2UooDD3MspDBjZ2AD02Y=
+github.com/caarlos0/env/v11 v11.0.0 h1:ZIlkOjuL3xoZS0kmUJlF74j2Qj8GMOq3CDLX/Viak8Q=
+github.com/caarlos0/env/v11 v11.0.0/go.mod h1:2RC3HQu8BQqtEK3V4iHPxj0jOdWdbPpWJ6pOueeU1xM=
+github.com/rhiaqey/sdk-go v0.0.0-20240506122705-72a597527fbd h1:r1IXyMBp9Ju+FgFrxqPnQ7f1JOXH+2IRhuYeuEVHXAU=
+github.com/rhiaqey/sdk-go v0.0.0-20240506122705-72a597527fbd/go.mod h1:9xi1TkPKvTQVG99O8qhf9JhQcqoJ7gQGUqAy3H6JtDw=
