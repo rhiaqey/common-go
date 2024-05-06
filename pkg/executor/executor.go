@@ -5,7 +5,7 @@ import (
 
 	"github.com/rhiaqey/common-go/pkg/env"
 	"github.com/rhiaqey/common-go/pkg/rpc"
-	"github.com/rhiaqey/sdk-go/sdk"
+	"github.com/rhiaqey/sdk-go/pkg/sdk"
 )
 
 type Executor struct {

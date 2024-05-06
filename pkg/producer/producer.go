@@ -8,7 +8,7 @@ import (
 	rhiaqey_env "github.com/rhiaqey/common-go/pkg/env"
 	"github.com/rhiaqey/common-go/pkg/executor"
 	"github.com/rhiaqey/common-go/pkg/rpc"
-	"github.com/rhiaqey/sdk-go/sdk"
+	"github.com/rhiaqey/sdk-go/pkg/sdk"
 )
 
 func Run[T sdk.Producer, S any](producer T, settings S) {
