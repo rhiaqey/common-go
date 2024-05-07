@@ -7,6 +7,7 @@ import (
 	"github.com/caarlos0/env/v11"
 	rhiaqey_env "github.com/rhiaqey/common-go/pkg/env"
 	"github.com/rhiaqey/common-go/pkg/executor"
+	rhiaqey_http "github.com/rhiaqey/common-go/pkg/http"
 	"github.com/rhiaqey/common-go/pkg/rpc"
 	"github.com/rhiaqey/sdk-go/pkg/sdk"
 )
@@ -38,9 +39,8 @@ func Run[T sdk.Producer, S any](producer T, settings S) {
 		log.Fatal(err)
 	}
 
-	// TODO: read settings here
+	go rhiaqey_http.HTTPServe(":8080")
 
-	// TODO: prepare publisher_registration_message
 	message := rpc.RegisterPublisherRPCMessageData{
 		Id:        exec.GetID(),
 		Name:      exec.GetName(),
